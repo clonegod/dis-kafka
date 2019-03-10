@@ -1,0 +1,12 @@
+kafka:
+  bootstrap-servers: localhost:9092
+  topic:
+    helloworld: helloworld.t
+
+logging:
+  level:
+    root: WARN
+    org.springframework.web: INFO
+    clonegod.kafka: DEBUG
+    
+    
